@@ -1,0 +1,7 @@
+#The MANIFEST.in file is used to explicitly define which files will be included in your deliverable package. 
+#It will contain files such as static assets, templates, README and LICENSE files. 
+
+include LICENSE.txt
+include README.rst
+recursive-include citylocations/static *
+recursive-include citylocations/templates *
